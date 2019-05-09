@@ -37,7 +37,7 @@ public class Aritmetica {
         int resultado=0;
         
         if(numero2==0){
-            throw new Exception("el numero no puede ser 0");
+            throw new Divicion0("el numero no puede ser 0");
              //numero2 = numero2;
         }
         resultado=(int)(numero1/numero2);

@@ -52,7 +52,7 @@ public class Mainsuma{
                 nume2 = numero.nextInt();
                 resultado = arit.dividir(nume1,nume2);
                 System.out.println("la suma es "+resultado);
-                 }catch(Exception e){
+                 }catch(Divicion0 e){
                         System.out.println("no se puede dividir entre 0 ");
                 }
         }
